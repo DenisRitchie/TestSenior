@@ -17,7 +17,7 @@ if (MSVC)
   add_compile_options(/W4 /WX /Zc:__cplusplus)
 else()
   # lots of warnings and all warnings as errors
-  add_compile_options(-Wall -Wextra -pedantic -Werror -fstrict-enums -fconcepts -fpermissive)
+  add_compile_options(-Wall -Wextra -pedantic -Werror -fstrict-enums -fpermissive)
 endif()
 
 # https://cmake.org/cmake/help/latest/command/add_definitions.html
