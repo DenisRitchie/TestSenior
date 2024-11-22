@@ -3,6 +3,7 @@
 #define __INTERFACE_MODULE_DATA_SEARCH_ENGINE_HPP__ // clang-format on
 
  #include <vector>
+ #include <cinttypes>
  #include <cstddef>
  #include <optional>
 
